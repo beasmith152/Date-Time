@@ -638,6 +638,10 @@ video {
   outline-style: solid;
 }
 
+.\[text-shadow\:_0_1px_0_rgb\(0_0_0_\/_40\%\)\] {
+  text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+}
+
 /* Your Awesome Styles */
 
 * {

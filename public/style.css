@@ -534,8 +534,37 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-/* Your Awesome Styles */
-
-* {
-  outline: 1px dotted gray;
+.h-screen {
+  height: 100vh;
 }
+
+.bg-hero {
+  background-image: url('https://images.alphacoders.com/527/thumb-1920-527845.jpg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.pt-12 {
+  padding-top: 3rem;
+}
+
+.pt-48 {
+  padding-top: 12rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-Rubik {
+  font-family: Rubik Glitch, system-ui;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+/* Your Awesome Styles */

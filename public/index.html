@@ -10,28 +10,34 @@
     <script src="time.js" defer></script>
     <script src="date.js" defer></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik+Glitch&display=swap" rel="stylesheet">
+
 </head>
-<body>
+<body class="bg-hero bg-cover h-screen">
 
     <main>
   
         <!-- Time -->
+         <div class="timepart text-center pt-48 text-white font-Rubik">
         <time class="time">
                 <data class="hours">HH</data> :
                 <data class="minutes">MM</data> :
                 <data class="seconds">SS</data>
                 <data class="amOrPM">AM/PM</data>
             </time>
-      
+          </div>
           
         <!-- Date -->
+         <div class="datepart text-center pt-12 text-white">
         <time class="date">
           <data class="month">Month</data>
           <data class="dayOfMonth">00</data>,
           <data class="year">0000</data> -
           <data class="dayOfWeek">SMTWTFS</data>
         </time>
-      
+      </div>
       </main>
     
 </body>
